@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 # Конфигурация бота
 TOKEN = '8096719095:AAH94ss4nqnWEr0iLQaHAq2q5hdyJrr6J90'  # Замените на токен вашего бота
-ADMIN_IDS = [123456789]   # ID администраторов, которые могут использовать бота
+ADMIN_IDS = [nd1ce]   # ID администраторов, которые могут использовать бота
 TIMEZONE = pytz.timezone('Europe/Moscow')  # Укажите свою временную зону
 
 def start(update: Update, context: CallbackContext) -> None:
